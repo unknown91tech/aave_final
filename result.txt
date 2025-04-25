@@ -1,0 +1,30 @@
+D:\aave-usdc-demo (aave-usdc-demo@1.0.0)
+λ npm start
+
+> aave-usdc-demo@1.0.0 start
+> ts-node approve-deposit.ts
+
+Starting approval and deposit process...
+Using wallet address: 0xd8bfF039909Ab3b82D364439c01Fa0A48F52Da73
+(node:25532) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+USDC decimals: 6
+Amount in wei: 10000000
+USDC Balance: 10000 USDC
+Approving 10 USDC to be spent by Aave...
+Aave Pool Address: 0x6Ae43d3271ff6888e7Fc43Fd7321a503ff738951
+Approve gas estimate: 26658
+Approval transaction successful!
+Transaction hash: 0xb3aa76954d4a1035ad863109d0ef84f9c7b67a28fe1113b039199898a05dfd01
+https://sepolia.etherscan.io/tx/0xb3aa76954d4a1035ad863109d0ef84f9c7b67a28fe1113b039199898a05dfd01
+Depositing 10 USDC to Aave...
+do as it says:  undefined
+Deposit gas estimate: 208355
+Deposit transaction successful!
+Transaction hash: 0x7d64d21c5d1bd6c6a5064ca90a427c521a7a4a82defc89db2dcee0cc94d0c6d7
+https://sepolia.etherscan.io/tx/0x7d64d21c5d1bd6c6a5064ca90a427c521a7a4a82defc89db2dcee0cc94d0c6d7
+Process completed successfully!
+
+
+This is my wallet you can check in the tokens Holdings that I have 10 aEthUSDC;
+https://sepolia.etherscan.io/address/0xd8bfF039909Ab3b82D364439c01Fa0A48F52Da73

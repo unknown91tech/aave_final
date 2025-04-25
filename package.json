@@ -1,0 +1,23 @@
+{
+  "name": "aave-usdc-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "ts-node approve-deposit.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "dotenv": "^16.5.0",
+    "web3": "^1.10.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.15.1",
+    "@types/web3": "^1.0.20",
+    "ts-node": "^10.9.2",
+    "typescript": "^4.9.5"
+  }
+}
